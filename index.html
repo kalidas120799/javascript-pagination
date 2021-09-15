@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Pagination</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class='container mt-5'>
+        <h5>Javascript Pagination In Dynamic Data </h5>
+        <div>
+            <ul class='list-group mb-4' id="dynamic"></ul>
+            <div id="pagination-container"></div>
+        </div>
+    </div>
+    <div class='container mt-5'>
+        <h5>Javascript Pagination In Static Data</h5>
+        <div>
+            <ul class='list-group mb-4' id="static">
+                <li class="list-group-item">lorem1</li>
+                <li class="list-group-item">lorem2</li>
+                <li class="list-group-item">lorem3</li>
+                <li class="list-group-item">lorem4</li>
+                <li class="list-group-item">lorem5</li>
+                <li class="list-group-item">lorem6</li>
+                <li class="list-group-item">lorem7</li>
+                <li class="list-group-item">lorem8</li>
+                <li class="list-group-item">lorem9</li>
+                <li class="list-group-item">lorem10</li>
+                <li class="list-group-item">lorem11</li>
+                <li class="list-group-item">lorem12</li>
+                <li class="list-group-item">lorem13</li>
+                <li class="list-group-item">lorem14</li>
+                <li class="list-group-item">lorem15</li>
+                <li class="list-group-item">lorem16</li>
+                <li class="list-group-item">lorem17</li>
+                <li class="list-group-item">lorem18</li>
+                <li class="list-group-item">lorem19</li>
+                <li class="list-group-item">lorem20</li>
+                <li class="list-group-item">lorem21</li>
+                <li class="list-group-item">lorem22</li>
+                <li class="list-group-item">lorem23</li>
+                <li class="list-group-item">lorem24</li>
+                <li class="list-group-item">lorem25</li>
+                <li class="list-group-item">lorem26</li>
+                <li class="list-group-item">lorem27</li>
+                <li class="list-group-item">lorem28</li>
+                <li class="list-group-item">lorem29</li>
+                <li class="list-group-item">lorem30</li>
+                <li class="list-group-item">lorem31</li>
+                <li class="list-group-item">lorem32</li>
+                <li class="list-group-item">lorem33</li>
+                <li class="list-group-item">lorem34</li>
+                <li class="list-group-item">lorem35</li>
+                <li class="list-group-item">lorem36</li>
+                <li class="list-group-item">lorem37</li>
+                <li class="list-group-item">lorem38</li>
+                <li class="list-group-item">lorem39</li>
+                <li class="list-group-item">lorem40</li>
+                <li class="list-group-item">lorem41</li>
+                <li class="list-group-item">lorem42</li>
+                <li class="list-group-item">lorem43</li>
+                <li class="list-group-item">lorem44</li>
+                <li class="list-group-item">lorem45</li>
+                <li class="list-group-item">lorem46</li>
+                <li class="list-group-item">lorem47</li>
+                <li class="list-group-item">lorem48</li>
+                <li class="list-group-item">lorem49</li>
+                <li class="list-group-item">lorem50</li>
+                <li class="list-group-item">lorem51</li>
+                <li class="list-group-item">lorem52</li>
+                <li class="list-group-item">lorem53</li>
+                <li class="list-group-item">lorem54</li>
+                <li class="list-group-item">lorem55</li>
+                <li class="list-group-item">lorem56</li>
+                <li class="list-group-item">lorem57</li>
+                <li class="list-group-item">lorem58</li>
+                <li class="list-group-item">lorem59</li>
+                <li class="list-group-item">lorem60</li>
+                <li class="list-group-item">lorem61</li>
+                <li class="list-group-item">lorem62</li>
+                <li class="list-group-item">lorem63</li>
+                <li class="list-group-item">lorem64</li>
+                <li class="list-group-item">lorem65</li>
+                <li class="list-group-item">lorem66</li>
+                <li class="list-group-item">lorem67</li>
+                <li class="list-group-item">lorem68</li>
+                <li class="list-group-item">lorem69</li>
+                <li class="list-group-item">lorem70</li>
+                <li class="list-group-item">lorem71</li>
+                <li class="list-group-item">lorem72</li>
+                <li class="list-group-item">lorem73</li>
+                <li class="list-group-item">lorem74</li>
+                <li class="list-group-item">lorem75</li>
+                <li class="list-group-item">lorem76</li>
+                <li class="list-group-item">lorem77</li>
+                <li class="list-group-item">lorem78</li>
+                <li class="list-group-item">lorem79</li>
+                <li class="list-group-item">lorem80</li>
+                <li class="list-group-item">lorem81</li>
+                <li class="list-group-item">lorem82</li>
+                <li class="list-group-item">lorem83</li>
+                <li class="list-group-item">lorem84</li>
+                <li class="list-group-item">lorem85</li>
+                <li class="list-group-item">lorem86</li>
+                <li class="list-group-item">lorem87</li>
+                <li class="list-group-item">lorem88</li>
+                <li class="list-group-item">lorem89</li>
+                <li class="list-group-item">lorem90</li>
+                <li class="list-group-item">lorem91</li>
+                <li class="list-group-item">lorem92</li>
+                <li class="list-group-item">lorem93</li>
+                <li class="list-group-item">lorem94</li>
+                <li class="list-group-item">lorem95</li>
+                <li class="list-group-item">lorem96</li>
+                <li class="list-group-item">lorem97</li>
+                <li class="list-group-item">lorem98</li>
+                <li class="list-group-item">lorem99</li>
+                <li class="list-group-item">lorem100</li>
+            </ul>
+            <div id="pagination-container1"></div>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script>
+    // // dynamic data pagination
+    var currentPage = 1
+    var postsPerPage = 10
+    var allPosts = []
+    var pageNumbers = [];
+    var paginationContainer = document.getElementById("pagination-container")
+
+    onloadData()
+    async function onloadData() {
+        allPosts = await axios.get('https://jsonplaceholder.typicode.com/posts').then((res) => res.data)
+        var paginateddata = await paginatedData()
+        displayData(paginateddata)
+    }
+
+    async function changePagination(number) {
+        currentPage = number
+        var paginateddata = await paginatedData()
+        displayData(paginateddata)
+    }
+
+    async function paginatedData() {
+        var indexOfLastPost = currentPage * postsPerPage;
+        var indexOfFirstPost = indexOfLastPost - postsPerPage;
+        var currentPosts = await allPosts.slice(indexOfFirstPost, indexOfLastPost);
+        return currentPosts
+    }
+
+    async function displayData(posts) {
+        document.getElementById("dynamic").innerHTML = ""
+        posts.forEach((post) => {
+            document.getElementById("dynamic").innerHTML +=
+                `
+            <li class='list-group-item' >
+                       ${post.title}
+                    </li>
+            `
+        })
+        pagination()
+    }
+
+
+    async function pagination() {
+
+        paginationContainer.innerHTML = ""
+        pageNumbers = []
+        for (let i = 1; i <= Math.ceil(allPosts.length / postsPerPage); i++) {
+            pageNumbers.push(i);
+        }
+
+        var navTag = document.createElement("nav")
+        var ulTag = document.createElement("ul")
+        ulTag.setAttribute("class", "pagination")
+        pageNumbers.map(number => (
+            ulTag.innerHTML +=
+            `
+            <li class="page-item${currentPage == number ? ' active' : ''}" style="cursor: pointer;">
+                <span onClick="changePagination(${number})" class='page-link'>
+                    ${number}
+                </span>
+            </li>   
+            `
+        ))
+        navTag.appendChild(ulTag)
+        paginationContainer.appendChild(navTag)
+    }
+</script>
+<script>
+    var staticcurrentPage = 1
+    var staticpostsPerPage = 10
+    var staticpageNumbers = [];
+    var allstaticData = []
+    var staticDatas = document.getElementById("static")
+    var paginationContainer1 = document.getElementById("pagination-container1")
+    onloadStaticData()
+    async function onloadStaticData() {
+        allstaticData.push(...staticDatas.children)
+        const staticPaginateddata = await staticpaginatedData()
+        staticdisplayData(staticPaginateddata)
+    }
+    async function staticchangePagination(number) {
+        staticcurrentPage = number
+        var paginateddata = await staticpaginatedData()
+        staticdisplayData(paginateddata)
+    }
+    async function staticpaginatedData() {
+        var indexOfLastPost = staticcurrentPage * staticpostsPerPage; // 1*10
+        var indexOfFirstPost = indexOfLastPost - staticpostsPerPage; // 10-10
+        var currentPosts = await allstaticData.slice(indexOfFirstPost, indexOfLastPost); // 0,10
+        return currentPosts
+    }
+    async function staticdisplayData(datas) {
+        staticDatas.innerHTML = ""
+        datas.forEach((data) => {
+            staticDatas.appendChild(data)
+        })
+        staticpagination()
+    }
+    async function staticpagination() {
+
+        paginationContainer1.innerHTML = ""
+        staticpageNumbers = []
+        for (let i = 1; i <= Math.ceil(allstaticData.length / staticpostsPerPage); i++) {
+            staticpageNumbers.push(i);
+        }
+        var navTag = document.createElement("nav")
+        var ulTag = document.createElement("ul")
+        ulTag.setAttribute("class", "pagination")
+        staticpageNumbers.map(number => (
+            ulTag.innerHTML +=
+            `
+    <li class="page-item${staticcurrentPage == number ? ' active' : ''}" style="cursor: pointer;">
+        <span onClick="staticchangePagination(${number})" class='page-link'>
+            ${number}
+        </span>
+    </li>   
+    `
+        ))
+        navTag.appendChild(ulTag)
+        paginationContainer1.appendChild(navTag)
+    }
+</script>
+
+</html>
